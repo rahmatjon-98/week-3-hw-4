@@ -566,6 +566,62 @@ video {
   top: 0px;
 }
 
+.bottom-\[300px\] {
+  bottom: 300px;
+}
+
+.bottom-\[500px\] {
+  bottom: 500px;
+}
+
+.bottom-\[1500px\] {
+  bottom: 1500px;
+}
+
+.top-\[1500px\] {
+  top: 1500px;
+}
+
+.top-\[10500px\] {
+  top: 10500px;
+}
+
+.top-\[6500px\] {
+  top: 6500px;
+}
+
+.top-\[7000px\] {
+  top: 7000px;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[300px\] {
+  left: 300px;
+}
+
+.top-\[7500px\] {
+  top: 7500px;
+}
+
+.top-\[7200px\] {
+  top: 7200px;
+}
+
+.top-\[7300px\] {
+  top: 7300px;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[13000px\] {
+  top: 13000px;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -673,6 +729,22 @@ video {
 
 .mt-\[50px\] {
   margin-top: 50px;
+}
+
+.mb-\[600px\] {
+  margin-bottom: 600px;
+}
+
+.mb-\[300px\] {
+  margin-bottom: 300px;
+}
+
+.mt-\[150px\] {
+  margin-top: 150px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
 }
 
 .block {
@@ -815,6 +887,14 @@ video {
   width: 20px;
 }
 
+.w-\[180px\] {
+  width: 180px;
+}
+
+.w-\[1000px\] {
+  width: 1000px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -899,6 +979,10 @@ video {
   border-radius: 4px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -911,6 +995,10 @@ video {
   border-top-width: 2px;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
 .border-\[\] {
   border-color: ;
 }
@@ -918,6 +1006,11 @@ video {
 .border-\[\#13CC00\] {
   --tw-border-opacity: 1;
   border-color: rgb(19 204 0 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\#27B674\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(39 182 116 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#13CC00\] {
@@ -973,6 +1066,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#f1f1f1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 241 241 / var(--tw-bg-opacity, 1));
+}
+
 .p-\[15px\] {
   padding: 15px;
 }
@@ -983,6 +1081,10 @@ video {
 
 .p-\[30px\] {
   padding: 30px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
 }
 
 .px-8 {
@@ -1091,6 +1193,10 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-\[16px\] {
@@ -1225,6 +1331,18 @@ video {
 }
 
 @media (min-width: 640px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:left-\[300px\] {
+    left: 300px;
+  }
+
+  .lg\:top-\[7300px\] {
+    top: 7300px;
+  }
+
   .lg\:mx-\[40\%\] {
     margin-left: 40%;
     margin-right: 40%;
@@ -1240,6 +1358,10 @@ video {
 
   .lg\:ml-\[150px\] {
     margin-left: 150px;
+  }
+
+  .lg\:mb-\[300px\] {
+    margin-bottom: 300px;
   }
 
   .lg\:block {
